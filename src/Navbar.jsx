@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="flex justify-between items-center text-[#5f5f5f] max-w-[1240px] mx-auto h-[6rem]">
-      <h1 className="w-full text-md  font-bold font-poppins md:text-3xl">
+      <h1 className="w-full text-md p-3 font-bold font-poppins md:text-3xl">
         <Link to={"/"}>Ume Abeeha Hostel</Link>
       </h1>
       <ul className="flex">

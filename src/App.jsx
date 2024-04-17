@@ -21,14 +21,16 @@ export default function App() {
           <p className="font-medium font-poppins text-sm md:text-4xl md:mt-10 bg-white p-3 rounded-md md:bg-opacity-80">
             A Hostel For Boys & Girls
           </p>
-          <button className="font-bold font-poppins text-sm md:text-4xl md:mt-10  bg-white hover:bg-opacity-100 p-3 rounded-md md:bg-opacity-80">
+          <button className="font-medium font-poppins text-sm mt-5 text-white md:text-4xl md:mt-10  bg-[#5f5f5f] hover:bg-opacity-100 p-3 rounded-md md:bg-opacity-80">
             Contact Now!
           </button>
         </div>
       </div>
       <div className="flex justify-center flex-col items-center md:mt-30 mx-auto max-w-[940px] h-[400px] md:relative ">
-        <h1 className="text-xl md:text-3xl font-poppins font-bold">Message For Parents</h1>
-        <p1 className="mt-10 text-md p-5 md:text-2xl font-poppins font-medium">
+        <h1 className="text-xl md:text-3xl font-poppins font-bold">
+          Message For Parents
+        </h1>
+        <p1 className="md:mt-10 mt-3 text-md p-5 md:text-2xl text-justify font-poppins font-normal">
           At Ume Abeeha Hostel, we prioritize your child safety, security, and
           well-being. With round-the-clock security and a supportive social
           environment, we ensure a nurturing home away from home. Plus, our
