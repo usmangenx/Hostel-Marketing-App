@@ -9,7 +9,7 @@ export default function App() {
         <img
           src="https://i.ibb.co/0y2w0MQ/Firefly-20240329201155.png"
           alt="Hostel Image"
-          className="w-full h-auto blur-[3px] border border-gray-600"
+          className="w-full h-auto md:blur-[3px] border border-gray-600"
         />
         <div className="md:absolute md:inset-0 flex flex-col items-center justify-center text-center text-[#5f5f5f]">
           <h1 className="font-extrabold font-poppins text-md md:text-4xl bg-white p-3 rounded-md bg-opacity-80 mt-9 md:mt-40">
