@@ -11,7 +11,7 @@ const Location = () => {
   return (
     <div className="">
       <Navbar />
-      <div className="flex justify-center mt-6 flex-col items-center  max-w-[1240px] mx-auto h-[50rem]">
+      <div className="flex  mt-10 flex-col items-center  max-w-[1240px] mx-auto h-[50rem]">
         <h1 className="font-bold text-[#5f5f5f] text-3xl font-poppins mt-8">
           Location
         </h1>
