@@ -2,6 +2,14 @@ import Footer from "./Footer";
 import Navbar from "./Navbar";
 
 export default function App() {
+  const openWhatsAppChat = () => {
+    // Replace '123456789' with the phone number you want to open chat with
+    const phoneNumber = "03486383567";
+    // Construct the WhatsApp URL
+    const url = `https://wa.me/${phoneNumber}`;
+    // Open the WhatsApp chat URL in a new window
+    window.open(url, "_blank");
+  };
   return (
     <>
       <Navbar />
@@ -22,7 +30,10 @@ export default function App() {
           <p className="font-medium font-poppins text-sm md:text-4xl md:mt-10 bg-white p-3 rounded-md md:bg-opacity-80">
             A Hostel For Boys & Girls
           </p>
-          <button className="font-medium font-poppins text-sm mt-5 md:text-[#5f5f5f] text-white md:text-4xl md:mt-10  bg-[#5f5f5f] md:bg-white hover:bg-opacity-100 p-3 rounded-md md:bg-opacity-80">
+          <button
+            onClick={openWhatsAppChat}
+            className="font-medium font-poppins text-sm mt-5 md:text-[#5f5f5f] text-white md:text-4xl md:mt-10  bg-[#5f5f5f] md:bg-white hover:bg-opacity-100 p-3 rounded-md md:bg-opacity-80"
+          >
             Contact Now!
           </button>
         </div>

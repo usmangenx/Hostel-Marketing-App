@@ -3,8 +3,8 @@ import Navbar from "./Navbar";
 
 const Location = () => {
   const openGoogleMaps = () => {
-    const latitude = "33.544662";
-    const longitude = "73.180670";
+    const latitude = "33.544660";
+    const longitude = "73.180672";
     const url = `https://www.google.com/maps?q=${latitude},${longitude}`;
     window.open(url, "_blank");
   };
