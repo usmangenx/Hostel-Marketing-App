@@ -25,7 +25,17 @@ export default function App() {
             Contact Now!
           </button>
         </div>
-        
+      </div>
+      <div className="flex justify-center flex-col items-center mt-30 mx-auto max-w-[940px] h-[400px] relative ">
+        <h1 className="text-3xl font-poppins font-bold">Message For Parents</h1>
+        <p1 className="mt-10 text-2xl font-poppins font-medium">
+          At Ume Abeeha Hostel, we prioritize your child safety, security, and
+          well-being. With round-the-clock security and a supportive social
+          environment, we ensure a nurturing home away from home. Plus, our
+          commitment to sustainability means we are mindful of our environmental
+          impact. Rest assured, your child is in good hands at Ume Abeeha
+          Hostel.
+        </p1>
       </div>
     </>
   );
