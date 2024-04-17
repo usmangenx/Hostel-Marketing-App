@@ -3,11 +3,8 @@ import Navbar from "./Navbar";
 
 export default function App() {
   const openWhatsAppChat = () => {
-    // Replace '123456789' with the phone number you want to open chat with
     const phoneNumber = "03486383567";
-    // Construct the WhatsApp URL
     const url = `https://wa.me/${phoneNumber}`;
-    // Open the WhatsApp chat URL in a new window
     window.open(url, "_blank");
   };
   return (
