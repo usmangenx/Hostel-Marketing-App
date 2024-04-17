@@ -7,13 +7,22 @@ const Navbar = () => {
         <Link to={"/"}>Ume Abeeha Hostel</Link>
       </h1>
       <ul className="flex">
-        <Link className="p-3 text-sm md:font-medium font-poppins" to={"/"}>
+        <Link
+          className="p-3 text-sm font-medium  md:font-medium font-poppins"
+          to={"/"}
+        >
           Home
         </Link>
-        <Link className="p-3 text-sm md:font-medium font-poppins" to={"/location"}>
+        <Link
+          className="p-3 text-sm font-medium md:font-medium font-poppins"
+          to={"/location"}
+        >
           Location
         </Link>
-        <Link className="p-3 text-sm md:font-medium font-poppins" to={"/contact"}>
+        <Link
+          className="p-3 text-sm font-medium md:font-medium font-poppins"
+          to={"/contact"}
+        >
           Contact
         </Link>
       </ul>
