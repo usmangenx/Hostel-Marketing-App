@@ -35,8 +35,8 @@ export default function App() {
           </button>
         </div>
       </div>
-      <div className="flex justify-center flex-col items-center md:mt-30 mx-auto max-w-[940px] h-[450px] md:relative ">
-        <h1 className="text-xl md:text-3xl text-[#5f5f5f] font-poppins font-bold">
+      <div className="flex justify-center flex-col items-center md:mt-30 mx-auto max-w-[940px] h-[400px] md:relative ">
+        <h1 className="text-xl md:mt-10 md:text-3xl text-[#5f5f5f] font-poppins font-bold">
           Message For Parents
         </h1>
         <p1 className="md:mt-10 mt-3 text-md p-10 md:text-2xl text-[#5f5f5f] text-balance font-poppins font-normal">
@@ -48,7 +48,7 @@ export default function App() {
           hands at Ume Abeeha Hostel.
         </p1>
       </div>
-      <div className="flex justify-center flex-col text-[#5f5f5f] items-center mx-auto max-w-[940px] h-[400px] ">
+      <div className="flex flex-col text-[#5f5f5f] items-center mx-auto max-w-[940px] h-[400px] md:h-[550px] ">
         <h1 className="text-xl md:text-3xl font-poppins font-bold">
           Facilities
         </h1>
