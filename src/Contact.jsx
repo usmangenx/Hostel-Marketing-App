@@ -1,3 +1,4 @@
+import Footer from "./Footer";
 import Navbar from "./Navbar";
 
 const Contact = () => {
@@ -5,7 +6,9 @@ const Contact = () => {
     <div>
       <Navbar />
       <h1>contact</h1>
+      <Footer/>
     </div>
+
   );
 };
 
