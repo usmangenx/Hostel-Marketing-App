@@ -26,6 +26,10 @@ const Contact = () => {
         <p className="text-xl text-[#5f5f5f] font-poppins p-5 font-medium mt-3">
           03486383567
         </p>
+        <p className="text-xl text-[#5f5f5f] font-poppins  font-medium">
+
+          03415011514
+        </p>
         <h1 className="font-bold text-[#5f5f5f] text-xl font-poppins mt-8">
           For Direct WhatsApp
         </h1>
