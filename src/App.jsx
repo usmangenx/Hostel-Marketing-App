@@ -35,7 +35,7 @@ export default function App() {
           </button>
         </div>
       </div>
-      <div className="flex justify-center flex-col items-center md:mt-30 mx-auto max-w-[940px] h-[400px] md:relative ">
+      <div className="flex justify-center flex-col items-center md:mt-30 mx-auto max-w-[940px] h-[500px] md:relative ">
         <h1 className="text-xl md:mt-10 md:text-3xl text-[#5f5f5f] font-poppins font-bold">
           Message For Parents
         </h1>
