@@ -13,7 +13,7 @@ export default function App() {
 
       <div className="mx-auto max-w-[1240px] md:relative md:pt-20">
         <img
-          src="https://i.ibb.co/0y2w0MQ/Firefly-20240329201155.png"
+          src="https://i.ibb.co/4F7HhTt/Untitled-2.png"
           alt="Hostel Image"
           className="w-full h-auto md:blur-[3px] border border-gray-600"
         />
