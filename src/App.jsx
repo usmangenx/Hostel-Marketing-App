@@ -78,6 +78,26 @@ export default function App() {
           className="w-full h-auto border-white border-[10px] mb-9"
         />
       </div>
+      <div className="mx-auto flex flex-col items-center max-w-[1240px] md:pt-20">
+        <h1 className="text-xl mb-10 mt-3 md:text-3xl text-[#5f5f5f] font-poppins font-bold">
+        Hallway
+        </h1>
+        <img
+          src="https://i.ibb.co/hDZxZsB/Whats-App-Image-2024-04-23-at-1-54-17-AM-1.jpg"
+          alt="Room Image"
+          className="w-full h-auto border-white border-[10px] mb-9"
+        />
+      </div>
+      <div className="mx-auto flex flex-col items-center max-w-[1240px] md:pt-20">
+        <h1 className="text-xl mb-10 mt-3 md:text-3xl text-[#5f5f5f] font-poppins font-bold">
+          Beautiful Lawn
+        </h1>
+        <img
+          src="https://i.ibb.co/xs0P2fW/Whats-App-Image-2024-04-23-at-1-54-13-AM.jpg"
+          alt="Room Image"
+          className="w-full h-auto border-white border-[10px] mb-9"
+        />
+      </div>
       <Footer />
     </>
   );
