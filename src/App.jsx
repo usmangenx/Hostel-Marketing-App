@@ -68,6 +68,16 @@ export default function App() {
           <li>Security </li>
         </ul>
       </div>
+      <div className="mx-auto flex flex-col items-center max-w-[1240px] md:pt-20">
+        <h1 className="text-xl mb-10 mt-3 md:text-3xl text-[#5f5f5f] font-poppins font-bold">
+          Furnished Rooms
+        </h1>
+        <img
+          src="https://i.ibb.co/bm4GkM2/Whats-App-Image-2024-04-21-at-7-43-30-PM-1.png"
+          alt="Room Image"
+          className="w-full h-auto border-white border-[10px] mb-9"
+        />
+      </div>
       <Footer />
     </>
   );
